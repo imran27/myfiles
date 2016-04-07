@@ -24,6 +24,7 @@ appstream-glib
 apr
 apr-util
 archey3
+arch-install-scripts
 archlinux-appstream-data
 archlinux-artwork
 archlinux-keyring
@@ -55,7 +56,6 @@ bash-git-prompt-git
 bc
 bdf-unifont
 beignet
-bigreqsproto
 bind
 bind-tools
 binutils
@@ -85,6 +85,7 @@ cdparanoia
 cdrdao
 cdrkit
 celt
+cgmanager
 cgroup_event_listener
 chromaprint
 cifs-utils
@@ -402,7 +403,6 @@ lcms
 lcms2
 ldb
 ldns
-leafpad
 leptonica
 less
 lib32-acl
@@ -596,6 +596,7 @@ libffi
 libfontenc
 libftd2xx
 libftdi
+libftdi-compat
 libgadu
 libgcrypt
 libgdata
@@ -627,6 +628,7 @@ libimobiledevice
 libindicator-gtk2
 libindicator-gtk3
 libinput
+libirman
 libisoburn
 libisofs
 libixion
@@ -661,6 +663,7 @@ libndp
 libnewt
 libnfs
 libnice
+libnih
 libnl
 libnm-glib
 libnotify
@@ -800,9 +803,12 @@ licenses
 links
 linux
 linux-api-headers
+linuxconsole
 linux-firmware
 linux-headers
+linux-tools-meta
 liquidprompt
+lirc
 livestreamer-dev-git
 llvm
 llvm-libs
@@ -816,9 +822,12 @@ l-smash
 lsof
 lua
 lua52
+lua-alt-getopt
+lua-filesystem
 lua-lgi
 lvm2
 lxappearance-gtk3
+lxc
 lxdm-gtk3
 lynx
 lz4
@@ -1043,7 +1052,6 @@ pygobject-devel
 pygtk
 python
 python2
-python2-beaker
 python2-cairo
 python2-cffi
 python2-crypto
@@ -1052,8 +1060,6 @@ python2-ecdsa
 python2-gobject
 python2-gobject2
 python2-lxml
-python2-mako
-python2-markupsafe
 python2-packaging
 python2-paramiko
 python2-ply
@@ -1326,7 +1332,6 @@ xcb-util-image
 xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
-xcmiscproto
 xcursor-flatbed
 xdg-user-dirs
 xdg-user-dirs-gtk
@@ -1460,7 +1465,6 @@ xorg-xwud
 xproto
 xscreensaver-xmatrix-color
 xterm
-xtrans
 xvidcore
 xz
 yajl
