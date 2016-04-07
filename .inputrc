@@ -1,0 +1,7 @@
+set show-all-if-ambiguous on
+set show-all-if-unmodified on
+set colored-stats on
+set editing-mode vi
+
+"\e[A": history-search-backward
+"\e[B": history-search-forward

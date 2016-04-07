@@ -1,0 +1,20 @@
+#!/bin/sh
+
+## This script opens the PKGBUILD of an existing package in $AURDEST
+
+if [ -z "${1}" ]; then
+	echo "This program edits PKGBUILD of package whose pkgbuilds exist in AURDEST, your AURDEST is "${AURDEST}"";
+	echo "Usage: edlocpkgb <package>";
+fi
+
+pkg_names="${@}";
+
+for i in "${@}"; do
+	if [ ! -d ${AURDEST}/${i} ]; then
+		echo "The local pkgbuild ${i} not found in ${AURDEST}/${i}, you can get it using pkgbget ${i}";
+		exit 1;
+	else
+		gvim $AURDEST/${1}/PKGBUILD;
+	fi
+done
+
