@@ -1,7 +1,0 @@
---username "imran.munshi.199127"
---password "imranfarheen611885514" 
---abort-on-error 
---verbose 
---audio-quality 0 
---prefer-ffmpeg 
---output ~/Videos/%(title)s.%(ext)s
