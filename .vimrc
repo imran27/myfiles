@@ -8,27 +8,18 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'scrooloose/nerdtree'
-"Plugin 'rust-lang/rust.vim'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'tpope/vim-flagship'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-surround'
 Plugin 'vim-scripts/ReplaceWithRegister'
-Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-commentary'
-Plugin 'mustache/vim-mustache-handlebars'
-"Plugin 'phildawes/racer'
 Plugin 'tpope/vim-sensible'
 Plugin 'christoomey/vim-system-copy'
-"Plugin 'Lokaltog/vim-powerline'
-"Plugin 'Lokaltog/powerline'
+Plugin 'jiangmiao/auto-pairs'
 
 " All of your Plugins must be added before the following line
 call vundle#end()			" required
 
-filetype on					" required
 filetype plugin indent on	" required
 
 syntax on
@@ -52,14 +43,18 @@ set smartcase
 set foldmethod=syntax
 set showmatch
 set cursorline
-" set visualbell
+"set visualbell
 set guifont=Source\ Code\ Pro\ 10
 set guioptions=aegi
 set nowrap
 set relativenumber
 
 " Set color scheme
-colorscheme solarized
+if has("gui_running")
+	colorscheme solarized
+else
+	colorscheme gruvbox
+endif
 
 " Color schemes change the background to light very often, so make the
 " background dark explicitly
@@ -72,8 +67,8 @@ set laststatus=2
 set showtabline=2
 
 set tabline=%m%t
-"set guitablabel=%m%t
-"set statusline=%m[%f]\:%y
+set guitablabel=%m%t
+set statusline=%m[%f]\:%y
 
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_auto_loc_list=1
@@ -89,10 +84,20 @@ let g:syntastic_check_on_wq=0
 "let g:rust_bang_comment_leader=1
 "let g:ftplugin_rust_source_path=$RUST_SRC_PATH
 
+" vim-mustache-handlebars
+let g:mustache_abbreviations=1
+
 " vim-powerline
 "let g:Powerline_theme='solarized256'
 let g:Powerline_symbols='fancy'
 let g:powerline_pycmd='py3'
 "let g:Powerline_dividers_override=['>>','>','<<','<']
+
+" vim-latexsuite
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor='latex'
+
+" auto-pairs
+let g:AutoPairsFlyMode=1
 
 nmap <C-n> :NERDTreeToggle<CR>

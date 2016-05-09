@@ -20,7 +20,10 @@ export AURDEST=/home/abs/pkgbuilds
 export GTK_CSD=0
 
 ## Desktop Environment variables for xdg-open
-export DE="xfce"
+#export DE="xfce"
+
+## Default compression options for XZ
+export XZ_OPTS="--threads=4 -9"
 
 ## PATH setting
 export PATH=$PATH:$HOME/bin
