@@ -1,2 +1,3 @@
+#include ".Xresources.d/xterm"
 #include ".Xresources.d/uxterm"
 #include ".Xresources.d/rxvt-unicode"

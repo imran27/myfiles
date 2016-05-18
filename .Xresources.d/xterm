@@ -1,0 +1,9 @@
+!! Xterm Options
+XTerm*termName: xterm-256color
+XTerm*locale: true
+XTerm*utf-8: 1
+XTerm*SaveLines: 10240
+XTerm*faceName: Source\ Code\ Pro:style=Regular:antialias=true
+XTerm*faceSize: 10
+XTerm*font: 7x13
+XTerm*bellIsUrgent: true
