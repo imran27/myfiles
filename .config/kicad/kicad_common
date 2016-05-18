@@ -1,0 +1,8 @@
+Editor=/usr/bin/gvim
+WorkingDir=/home/imunshi
+ShowEnvVarWarningDialog=0
+[EnvironmentVariables]
+KICAD_PTEMPLATES=/usr/share/kicad/template/
+KIGITHUB=/home/imunshi/.config/kicad/
+KISYS3DMOD=/usr/share/kicad/modules/packages3d/
+KISYSMOD=/usr/share/kicad/footprints/

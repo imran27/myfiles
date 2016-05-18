@@ -1,0 +1,6 @@
+--username "imran.munshi.199127"
+--abort-on-error 
+--verbose 
+--audio-quality 0 
+--prefer-ffmpeg
+--output ~/Videos/%(title)s.%(ext)s

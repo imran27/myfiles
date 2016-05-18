@@ -1,24 +1,10 @@
 set nocompatible			" be iMproved, required
 filetype off				" required
 
-" set runtime path to include Vundle and initialize 
-set runtimepath+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call vundle#rc()
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
-Plugin 'flazz/vim-colorschemes'
-Plugin 'sheerun/vim-polyglot'
-Plugin 'tpope/vim-repeat'
-Plugin 'vim-scripts/ReplaceWithRegister'
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-sensible'
-Plugin 'christoomey/vim-system-copy'
-Plugin 'jiangmiao/auto-pairs'
-
-" All of your Plugins must be added before the following line
-call vundle#end()			" required
+Bundle 'sheerun/vim-polyglot'
 
 filetype plugin indent on	" required
 
@@ -45,16 +31,14 @@ set showmatch
 set cursorline
 "set visualbell
 set guifont=Source\ Code\ Pro\ 10
-set guioptions=aegi
+set guioptions=agi
 set nowrap
 set relativenumber
 
+set t_Co=256
+
 " Set color scheme
-if has("gui_running")
-	colorscheme solarized
-else
-	colorscheme gruvbox
-endif
+colorscheme gruvbox
 
 " Color schemes change the background to light very often, so make the
 " background dark explicitly
@@ -66,9 +50,9 @@ set hidden
 set laststatus=2
 set showtabline=2
 
-set tabline=%m%t
-set guitablabel=%m%t
-set statusline=%m[%f]\:%y
+"set tabline=%m%t
+"set guitablabel=%m%t
+"set statusline=%m[%f]\:%y
 
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_auto_loc_list=1

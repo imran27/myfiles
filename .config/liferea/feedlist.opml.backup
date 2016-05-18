@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<opml version="1.0">
+  <head>
+    <title>Liferea Feed List Export</title>
+  </head>
+  <body>
+    <outline title="Example Feeds" text="Example Feeds" description="Example Feeds" type="folder" id="ekrperb" sortColumn="time" collapsed="true">
+      <outline title="News" text="News" description="News" type="folder" id="ccyvnou" sortColumn="time" collapsed="true"/>
+      <outline title="Open Source" text="Open Source" description="Open Source" type="folder" id="uwryfrm" sortColumn="time" collapsed="true"/>
+      <outline title="Podcasts" text="Podcasts" description="Podcasts" type="folder" id="adntmjw" sortColumn="time" collapsed="true"/>
+      <outline title="Music Blogs" text="Music Blogs" description="Music Blogs" type="folder" id="ypsgsmb" sortColumn="time" collapsed="true"/>
+      <outline title="Comics" text="Comics" description="Comics" type="folder" id="wcjcxow" sortColumn="time" collapsed="true"/>
+    </outline>
+    <outline title="Unread" text="Unread" description="Unread" type="vfolder" id="eqyjlwj" sortColumn="time" matchType="any" collapsed="true">
+      <outline type="rule" text="Read status" rule="unread" value="" additive="true"/>
+    </outline>
+    <outline title="Important" text="Important" description="Important" type="vfolder" id="ufikgnl" sortColumn="time" matchType="any" collapsed="true">
+      <outline type="rule" text="Flag status" rule="flagged" value="" additive="true"/>
+    </outline>
+    <outline title="Arch Linux Bugtracker::" text="Arch Linux Bugtracker::" description="Arch Linux Bugtracker::" type="rss" id="jmcwhgw" sortColumn="time" xmlUrl="https://bugs.archlinux.org/feed.php?feed_type=rss2&amp;project=0" htmlUrl="https://bugs.archlinux.org/" updateInterval="-1" enforcePopup="true" collapsed="true"/>
+    <outline title="Arch Linux: Recent news updates" text="Arch Linux: Recent news updates" description="Arch Linux: Recent news updates" type="rss" id="bpukync" sortColumn="time" xmlUrl="https://www.archlinux.org/feeds/news/" htmlUrl="https://www.archlinux.org/news/" updateInterval="-1" collapsed="true"/>
+    <outline title="Google Alert - Android" text="Google Alert - Android" description="Google Alert - Android" type="atom" id="sadkuhd" sortColumn="time" xmlUrl="https://www.google.co.in/alerts/feeds/10829730972895323548/14161228363064477212" htmlUrl="" updateInterval="-1" collapsed="true"/>
+    <outline title="Google Alert - Space Science" text="Google Alert - Space Science" description="Google Alert - Space Science" type="atom" id="yyookgk" sortColumn="time" xmlUrl="https://www.google.com/alerts/feeds/10829730972895323548/17710102649586696036" htmlUrl="" updateInterval="-1" collapsed="true"/>
+  </body>
+</opml>

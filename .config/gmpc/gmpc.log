@@ -1,0 +1,15 @@
+17/05/2016-15:22:00:Info:A new metadata plugin was added, gmpc has purged all failed hits from the cache
+17/05/2016-15:22:16:Info:Connected to mpd
+17/05/2016-15:22:25:Critical:<b>error code 50: ACK [50@0] {lsinfo} No database</b>
+17/05/2016-15:22:29:Critical:<b>error code 50: ACK [50@0] {lsinfo} No database</b>
+17/05/2016-15:23:35:Info:Connected to mpd
+17/05/2016-15:23:37:Critical:<b>error code 50: ACK [50@0] {lsinfo} No database</b>
+17/05/2016-15:23:46:Critical:<b>error code 50: ACK [50@0] {lsinfo} No database</b>
+17/05/2016-15:25:04:Info:Connected to mpd
+17/05/2016-15:25:06:Critical:<b>error code 50: ACK [50@0] {lsinfo} No database</b>
+17/05/2016-15:39:19:Info:Connected to mpd
+17/05/2016-15:39:21:Critical:<b>error code 50: ACK [50@0] {lsinfo} No database</b>
+17/05/2016-15:40:40:Info:Connected to mpd
+17/05/2016-15:40:42:Critical:<b>error code 50: ACK [50@0] {lsinfo} No database</b>
+17/05/2016-16:32:05:Info:Connected to mpd
+17/05/2016-16:32:07:Critical:<b>error code 50: ACK [50@0] {lsinfo} No database</b>

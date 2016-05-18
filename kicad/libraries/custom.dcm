@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TUSB4041I
+D TI 4-Port USB 2.0 Hub with 3.3V and 1.1V Power Supply, 64-HTQFP with Therm Pad
+$ENDCMP
+#
+#End Doc Library

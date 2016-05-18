@@ -1,6 +1,6 @@
 # Write your default config options here!
-vo=vaapi
-ao=alsa
+vo=vdpau
+ao=vaapi
 volume=30
 aspect=16:9
 #benchmark=true
