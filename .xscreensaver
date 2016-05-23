@@ -1,5 +1,5 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.34 for imunshi on Mon May  2 15:29:00 2016.
+# Written by xscreensaver-demo 5.34 for imunshi on Fri May 20 14:44:31 2016.
 # http://www.jwz.org/xscreensaver/
 
 timeout:	0:10:00
@@ -29,13 +29,13 @@ dpmsQuickOff:	False
 dpmsStandby:	2:00:00
 dpmsSuspend:	2:00:00
 dpmsOff:	4:00:00
-grabDesktopImages:  True
+grabDesktopImages:  False
 grabVideoFrames:    False
 chooseRandomImages: False
 imageDirectory:	
 
 mode:		one
-selected:	89
+selected:	94
 
 textMode:	date
 textLiteral:	XScreenSaver
