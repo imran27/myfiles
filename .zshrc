@@ -71,14 +71,15 @@ alias mkdir='mkdir -pv'
 alias cp='cp -v'
 alias rm='rm -v'
 alias mv='mv -v'
-alias reboot='systemctl reboot'
-alias poweroff='systemctl poweroff'
 alias rmorphans='sudo pacman -Rns  $(pacman -Qqdt)'
 alias ls='ls -hp --color=auto'
 alias ICICILogin='midori -p ICICibank.com/safe-online-banking/safe-online-banking.page'
 alias lXlog='less /var/log/Xorg.0.log'
 alias mesalibtool='libtool --finish /usr/lib /usr/lib/xorg/modules /usr/lib/xorg/modules/dri /usr/lib/xorg/modules/drivers /usr/lib/dri /usr/lib/bellagio /usr/lib/d3d'
 alias aursearch='cower -s --rsort=votes'
+
+alias poweroff='systemctl poweroff'
+alias reboot='systemctl reboot'
 
 function aur_repo_update() {
 	repo-add -R -n -s -v /home/abs/packages/abs-aur.db /home/abs/packages/*.pkg.tar;
@@ -118,7 +119,7 @@ function pkgblinf() {
 }
 
 function installdeps() {
-	sudo pacman -S $(expac -S "%D" ${@});
+	 sudo pacman -S $(expac -S "%D" ${@});
 }
 
 ## Source Zsh Syntax Highlighting
