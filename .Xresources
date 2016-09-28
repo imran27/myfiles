@@ -2,3 +2,4 @@
 #include ".Xresources.d/uxterm"
 #include ".Xresources.d/rxvt-unicode"
 #include ".Xresources.d/xscreensaver"
+#include ".Xresources.d/emacs"
