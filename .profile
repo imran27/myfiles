@@ -25,4 +25,6 @@ Whi="\033[0;37m";     BWhi="\033[1;37m";    UWhi="\033[4;37m";    IWhi="\033[0;9
 export RCol;
 export {,B,U,I,UI,BI,On_,On_I}{Bla,Red,Gre,Yel,Blu,Pur,Cya,Whi};
 
-powerline-daemon -q;
+# powerline-daemon -q;
+
+# adb start-server;

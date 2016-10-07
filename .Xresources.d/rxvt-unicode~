@@ -69,7 +69,7 @@ URxvt*reverseVideo: true
 ! URxvt*borderColor: colour
 
 ! Select the fonts to be used. This is a comma separated list of font names that are checked in order when trying to find glyphs for characters. The first
-URxvt*font: xft:DejaVu Sans Mono for Powerline:style=Regular:size=10
+URxvt*font: xft:Source Code Pro:style=Regular:size=10
 
 ! URxvt*boldFont: fontlist
 

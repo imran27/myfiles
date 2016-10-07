@@ -1,1 +1,1 @@
---indent=force-tab=4 --attach-namespaces --attach-classes --attach-inlines --attach-extern-c --indent-classes --indent-preproc-cond --pad-oper --break-blocks=all --pad-paren-out --pad-header --add-brackets --preserve-date --verbose --lineend=windows --suffix=none
+--indent=spaces=4 --attach-namespaces --attach-classes --attach-inlines --attach-extern-c --indent-classes --indent-preproc-cond --pad-oper --break-blocks=all --pad-paren-out --pad-header --add-brackets --preserve-date --verbose --lineend=linux --suffix=none

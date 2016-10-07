@@ -1,0 +1,1 @@
+export PS1="${UIYel}\u${IYel}@\h${IBlu} \w \$${RCol} "
