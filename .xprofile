@@ -1,0 +1,4 @@
+## Autostart programs for xsession using startx/xinit/SLiM/etc.
+
+numlockx &
+xsetroot -cursor_name left_ptr &

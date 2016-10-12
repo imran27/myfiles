@@ -156,7 +156,7 @@ static char *gnus-pointer[] = {
  '(rust-indent-method-chain t)
  '(selection-coding-system (quote utf-8))
  '(server-mode t)
- '(show-paren-mode nil)
+ '(show-paren-mode t)
  '(show-smartparens-global-mode t)
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#eee8d5" 0.2))
  '(sml/active-background-color "#34495e")
